@@ -1,0 +1,19 @@
+{
+  "name": "steer-sushi-vaults-avalanche-atq-module",
+  "version": "1.0.0",
+  "main": "main.mjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "atq-types": "^1.1.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "@types/node": "^20.11.30"
+  }
+}
